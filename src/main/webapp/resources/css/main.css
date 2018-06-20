@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+body {
+	
+}
+
+/* General */
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	background: none repeat scroll 0 center transparent;
+	border: medium none;
+	clear: both;
+	font-size: 0;
+	height: 0.1px;
+	margin-top: -1px;
+	overflow: hidden;
+	padding: 0;
+	visibility: hidden;
+	display: block;
+}
+
+.cont_login {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.cont_login .error {
+	text-align: center;
+	color: red;
+}
+
+.cont_login input.button {
+	line-height: normal;
+	font-size: 15px;
+}
+
+.cont {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.cont img.start, .cont #anwserCont img {
+	display: block;
+	margin: 0 auto;
+}
+
+.cont #imageCont img, .cont #anwserCont img {
+	width: 470px;
+}
+
+.cont #imageCont span.text {
+	display: block;
+	text-align: center;
+	font-size: 4em;
+}
+
+.cont #anwserCont {
+	text-align: center;
+}
+
+.cont #anwserCont input#answer {
+	margin-top: 10px;
+	width: 300px;
+	height: 42px;
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.cont #anwserCont a#submitAnswer {
+	display: block;
+	width: 297px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-size: 26px;
+}
+
+.cont #anwserCont a#submitAnswer, .button {
+	background-color: gainsboro;
+	margin-top: 10px;
+	border: 1px solid gray;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+	padding: 5px 10px;
+	line-height: 42px;
+	font-size: 19px;
+}
